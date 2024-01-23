@@ -40,6 +40,10 @@
   .bike__list{
     flex-wrap: wrap;
   }
+  .bike__list-item{
+    width: 50%;
+    margin-bottom: 15px;
+  }
 }
 
 @media (max-width: 640px){
@@ -67,6 +71,10 @@
   }
   .menu__link{
     padding: 25px 0;
+  }
+  .bike__link{
+    padding: 15px;
+    letter-spacing: 0.9em;
   }
 }
 
