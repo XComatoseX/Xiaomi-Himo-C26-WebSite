@@ -18,6 +18,18 @@
     max-width: 100%;
     margin-left: 0;
   }
+  .info__img{
+    display: none;
+  }
+  .info__list{
+    flex-basis: 100%;
+  }
+  .info__item-text{
+    max-width: 100%;
+  }
+  .info{
+    padding-top: 50px;
+  }
 }
 
 @media (max-width: 991px){
@@ -62,6 +74,9 @@
   }
   .menu__link{
     padding: 25px 20px;
+  }
+  .info__item + .info__item{
+    padding-top: 25px;
   }
 }
 
